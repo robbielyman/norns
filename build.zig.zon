@@ -1,0 +1,29 @@
+.{
+    .name = .norns,
+    .fingerprint = 0xe66203f516a27d1f, // changing this has trust and security implications
+    .minimum_zig_version = "0.14.0",
+    .version = "2.9.1", // NB: without manual updating, this will quickly fall out of date
+    .paths = .{
+        "crone",
+        "doc",
+        "lua",
+        "maiden-repl",
+        "matron",
+        "osc-test",
+        "resources",
+        "sc",
+        "third-party",
+        "update",
+        "watcher",
+        "ws-wrapper",
+        ".clang-format",
+        "matronrc.lua",
+        "readme.md",
+        "readme-setup.md",
+        "readme-update.md",
+        "releases.txt",
+        "start.sh",
+        "stop.sh",
+    },
+    .dependencies = .{},
+}
